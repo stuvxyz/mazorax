@@ -1,0 +1,3 @@
+Mazorax Jekyll Theme
+====================
+# mazorax
