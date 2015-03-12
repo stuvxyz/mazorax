@@ -39,6 +39,7 @@
 	<script type='text/javascript' src='/mazorax/assets/lib/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 	<script type='text/javascript' src='/mazorax/assets/lib/jquery/jquery.cycle.all.min.js?ver=4.0'></script>
 	<script type='text/javascript' src='/mazorax/assets/lib/jquery/jquery.touchswipe.min.js?ver=4.0'></script>
+	<script type='text/javascript' src="/mazorax/assets/lib/lazyload/jquery.lazyload.js?v=1.9.1"></script>
 	
 	<script type="text/javascript"> 
 		var analyticsFileTypes = ['']; 
@@ -65,7 +66,7 @@
 
     
     
-    <div id="page" class="hfeed featured background_image">
+    <div id="page" class="hfeed featured" data-original="/mazorax/assets/css/images/background.png">
     
     
 		<div id="main">
@@ -148,5 +149,19 @@
 
 
 
+	
+    <img src="/mazorax/assets/css/images/background.png" id="background_image" style="display:none;" alt="" />
+    
+
+    <script type="text/javascript"> 
+	jQuery('#background_image').ready(function() {
+        jQuery('div#page').css('background-image','url(/mazorax/assets/css/images/background.png)');
+        jQuery('div#page').fadeIn(1000);
+    });
+
+    // jQuery("div#page").lazyload({
+    //     effect : "fadeIn"
+    // });
+	</script>
 	</body>
 </html>

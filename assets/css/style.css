@@ -440,6 +440,7 @@ div.topstuff > div.topinfo.first p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url("images/skin/noisy_texture_section0-200x200.png");
 }
 
 .background_image {
