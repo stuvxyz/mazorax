@@ -441,7 +441,3 @@ div.topstuff > div.topinfo.first p {
     background-size: cover;
     background-image: url("images/skin/noisy_texture_section0-200x200.png");
 }
-
-.background_image {
-    background-image: url("images/background.png");
-}
