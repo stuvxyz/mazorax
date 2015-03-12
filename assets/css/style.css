@@ -440,4 +440,8 @@ div.topstuff > div.topinfo.first p {
     background-attachment: fixed;
     background-size: cover;
     background-image: url("images/skin/noisy_texture_section0-200x200.png");
+    -webkit-transition: background 1s linear;
+    -moz-transition: background 1s linear;
+    -o-transition: background 1s linear;
+    transition: background 1s linear;
 }
