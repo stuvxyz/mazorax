@@ -157,9 +157,11 @@
  //        jQuery('div#page').fadeIn(1000);
  //    });
 
-    jQuery("div#page").lazyload({
-        effect : "fadeIn"
-    });
+    jQuery(document).ready(function() {
+		jQuery("div#page").lazyload({
+	        effect : "fadeIn"
+	    });
+	})
 	</script>
 	</body>
 </html>
