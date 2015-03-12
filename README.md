@@ -1,1 +1,2 @@
-
+Mazorax Jekyll Theme
+====================
