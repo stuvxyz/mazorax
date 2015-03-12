@@ -55,7 +55,7 @@ function htmlspecialchars_decode(e, t) {
     return e
 }
 
-jQuery(window).load(function() {
+jQuery(document).ready(function() {
     function r() {
         jQuery("a").each(function() {
             var e = jQuery(this);
